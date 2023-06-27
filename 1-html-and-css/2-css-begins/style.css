@@ -1,0 +1,56 @@
+body {
+  /* background-color: black;
+  color: white; */
+  /* margin-left: 10px; */
+  /* max-width: 98%; */
+}
+
+.container {
+  display: flex;
+}
+
+.mango {
+  background-color: whitesmoke;
+  width: 32%;
+  /* border: 1px solid greenyellow; */
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.mango-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.mango-image:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.header-mango {
+  color: green;
+  text-align: center;
+}
+
+.mango small {
+  display: block;
+  text-align: center;
+}
+
+.area {
+  color: rgb(4, 190, 190);
+}
+
+.description {
+  /* color: gray; */
+  text-align: justify;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.owner {
+  text-align: end;
+}
