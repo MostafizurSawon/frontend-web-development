@@ -5,6 +5,34 @@ body {
   /* max-width: 98%; */
 }
 
+.mango-title {
+  color: rgb(4, 108, 108);
+  display: flex;
+}
+
+.title {
+  margin: 0 30px;
+  padding: 5px 15px;
+  border: 1px solid greenyellow;
+  border-radius: 10px;
+}
+
+.active {
+  background-color: aqua;
+  color: red;
+}
+
+h1 {
+  text-align: center;
+}
+
+.title:hover {
+  transition: 0.5s linear;
+  background-color: cyan;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
 .container {
   display: flex;
 }
